@@ -1,0 +1,37 @@
+body {
+    background: whitesmoke;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    background: white;;
+}
+    #filts,
+    #actions {
+        display:flex;
+    }
+
+    #actions{
+        justify-content: flex-end;
+    }
+    
+    .fild{ 
+        flex: 1; 
+    }
+
+    .fild label,
+    .fild input{
+        display: block;
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    th {
+        text-align: left;
+    }
+
+    #error{
+        color: red;
+    }
